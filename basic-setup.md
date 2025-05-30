@@ -62,22 +62,6 @@ brew install tree
 brew install google-chrome
 ```
 
-#### Install software for Python programming
-
-PyCharm IDE:
-```
-brew install pycharm --cask
-```
-
-The all-around dev tool for Python:
-```
-brew install uv
-```
-Then you can use `uv` to manage Python installations, e.g. 
-```
-uv python install 3.13
-```
-
 #### Set up `git` locally
 
 Follow the official guide to [generate a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), then [add a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
